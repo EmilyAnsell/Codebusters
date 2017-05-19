@@ -1,0 +1,25 @@
+"Welcome to OCC's Disrupt Climate Data Challenge!",
+,
+,
+"The following is important information about the data contained in this file that will be used in the competition.",
+"Please don't hesitate to contact OCC's Analyst, Glenn Milner at GMilner@trca.on.ca if you have any questions in advance of the Challenge.",
+,
+"Source of Data:","Daily timeseries data has been extracted from the portal funded by the Ministry of Environment and Climate Change (MOECC) and created by the University of Regina: The Ontario Climate Change Data Portal (OCCDP)"
+"Data Portal: ","http://ontarioccdp.ca/index_rcp8.5.html "
+"Data Description:","Climate projections providecd have been dynamically-downscaled from General Circulation Models (GCMs). Spatial resolution is 25km x 25km. The scenario is RCP8.5, and projections were driven by boundary conditions from the following 5 climate models: CanESM2, HadGEM2-ES, GFDL-ESM2M, IPSL-CM5A-LA, and MPI-ESM-MR."
+"Data Format:","Data has been summarized and provided in this Excel file for easy reference and download. However, you are free to export and access it from any other file types more comfortable to you (e.g., .txt, .dat, .nc, etc.). Raw climate data in text file format is available through the data portal above."
+"Emissions Scenario:","Business-as-Usual Emissions Scenario, also called RCP8.5"
+"Climate Models:","Five Climate Models are included (and labeled individually) in this file, but together they make up an ""Ensemble"". It is up to you to display the range and uncertainty for the same climate variables projected by these five different models."
+"Climate Variables [Units]:","Data for two climate variables are provided in this file: 1) Mean Air Temperature [degC] and 2) Total Precipitation [mm/day]. You are not required to use the data from both, though your solution will be evaluated for how scalable or applicable it is to a wider variety of climate variables so using both variables will be an advantage."
+"Spatial Location:","All climate data is provided for one particular location (one model grid cell). Therefore, no spatial averaging or interpolation is required. For reference, the climate data is representative of York University, with the centre of the grid cell at the following coordinates: 43.76, 280.41"
+"Time Periods:","Data is provided daily for two time periods: 1) Historical (Baseline) from 1986-2005; and 2) Future from 2040-2069"
+"Solution Method:","You are not required to use a particular type of coding language or specific method to find a solution - feel free to use your favourite! (E.g., Matlab, VB, Python, etc.)"
+"Important Notes on Evaluating Your Solution:","Our panel of judges will be evaluating your solution based on the following criteria:
+- The solution is technically valid/correct.
+- The solution is creative and disrupts current methods of displaying data/uncertainty.
+- The solution is applicable to multiple climate variables (i.e. not just mean temperature, or not just precipitation).
+- The solution is easy to understand for non-technical users. 
+- The solution can also be embedded within an online data portal or be linked to it somehow. 
+- Ideally, your solution is also scalable (i.e., it can be applied for one climate model grid cell, but also many grid cells).
+
+I would encourage you to go back to the original data portal (link is provided above) and explore how your solution could fit in to a format where climate model data is available at various other grid cells. You are free to go above and beyond by downloading more raw climate data and finding a broader solution with spatial interpolation and other methods (for bonus points!), but it is not required for this challenge. "
