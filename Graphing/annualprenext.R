@@ -1,0 +1,6 @@
+getwd()
+setwd("/Users/Somichan/Desktop")
+annualprenext <-read.csv ("annualprenext.csv", header = TRUE, stringsAsFactors = FALSE)
+View(annualprenext)
+plot(annualprenext$median, typ= 'l')
+title(main="Precipitation throughout the years - 2040-2068")
